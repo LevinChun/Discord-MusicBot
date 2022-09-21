@@ -29,8 +29,8 @@ module.exports = {
   // You need a lavalink server for this bot to work!!!!
   // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
   Lavalink: {
-    id: "Main", //- Used for indentifier. You can set this to whatever you want.
-    host: "", //- The host name or IP of the lavalink server.
+    id : "Main" , //- Digunakan untuk indentifier. Anda dapat mengatur ini untuk apa pun yang Anda inginkan.
+    host : "" , //- Nama host atau IP dari server lavalink.
     port: 80, // The port that lavalink is listening to. This must be a number!
     pass: "", //- The password of the lavalink server.
     secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.
@@ -39,7 +39,7 @@ module.exports = {
   },
   // Spotify Integration, allows you to enter a spotify link.
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", // Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", // Spotify Client Secret
+    ID   Klien : proses . lingkungan   _   Spotify_ClientID    ||    "Spotify" , // ID KlienSpotifyclic
+    Rahasia      Klien : proses . lingkungan      _      Spotify_ClientRahasia       ||       "" , // Rahasia Klien Spotify
   },
 };
